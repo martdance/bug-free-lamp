@@ -1,0 +1,17 @@
+<button class="glow">Click Me</button>
+
+<style>
+.glow {
+  background: #111;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  box-shadow: 0 0 5px #0ff, 0 0 15px #0ff;
+  animation: pulse 1.5s infinite;
+}
+@keyframes pulse {
+  0% { box-shadow: 0 0 5px #0ff; }
+  50% { box-shadow: 0 0 20px #0ff; }
+  100% { box-shadow: 0 0 5px #0ff; }
+}
+</style>
